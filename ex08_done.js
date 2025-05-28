@@ -2,6 +2,15 @@
 
 function longestWord(text) {
   // your code here
+  let arr = text.split(" ")
+  let longest = arr[0]
+
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i].length > longest.length) {
+      longest = arr[i]
+    }
+  }
+  return longest
 }
 
 console.log(longestWord('The duck loves bananas and grapes')) // 'bananas'

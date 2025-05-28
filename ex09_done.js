@@ -2,6 +2,8 @@
 
 function flattenArray(arr) {
   // your code here
+  let flatArr = arr.flat(Infinity)
+  return flatArr
 }
 
 console.log(flattenArray([[1, 2], [3, 4], [5, [6, 7]]])) // [1, 2, 3, 4, 5, 6, 7]

@@ -2,6 +2,8 @@
 
 function countWords(text) {
   // your code here
+  const textSplit = text.split(" ")
+  return textSplit.length
 }
 
 console.log(countWords('The quick brown fox jumps over the lazy dog')) // 9

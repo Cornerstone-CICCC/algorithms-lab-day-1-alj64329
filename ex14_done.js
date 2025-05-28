@@ -2,6 +2,9 @@
 
 function mergeArrays(arr1, arr2) {
   // your code here
+  let arr3 = arr1.concat(arr2)
+
+  return arr3.sort()
 }
 
 console.log(mergeArrays([1, 3, 5], [2, 4, 6])) // [1, 2, 3, 4, 5, 6]
